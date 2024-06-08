@@ -68,7 +68,7 @@ export default function Home() {
                     <div className="mt-8 flex justify-center">
                         <a
                             href="/#about"
-                            className="rounded bg-indigo-600 px-4 py-2 text-lg text-white"
+                            className="rounded-full bg-indigo-600 px-6 py-2 text-sm text-white tracking-wider"
                         >
                             Go down
                         </a>
