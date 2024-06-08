@@ -67,9 +67,28 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <main className="mx-auto max-w-5xl">
-                <div>
-                    <p>hello</p>
+            <main className="mx-auto max-w-3xl">
+                <h2 className="text-4xl font-bold">about</h2>
+                <div className="mt-16 space-y-8">
+                    <div>
+                        <p className="mb-2 text-2xl font-bold">挨拶</p>
+                        <p>
+                            こんにちはtuna2134です。よわよわです。アニメを見たり小説を読んだりして一日をだらだら過ごしています。
+                        </p>
+                    </div>
+                    <div>
+                        <p className="mb-2 text-2xl font-bold">スキル</p>
+                        <p>
+                            JavaScript, TypeScript, Rust, Python,
+                            Kubernetesなどなど。これらのツールを利用してサイトを作ったりとかインフラを管理したりして遊んでいます。
+                        </p>
+                    </div>
+                    <div>
+                        <p className="mb-2 text-2xl font-bold">所属組織</p>
+                        <p>
+                            neodylandとかKuronekoServerに所属しており、ボットの開発やインフラの管理などをしています。
+                        </p>
+                    </div>
                 </div>
             </main>
         </AnimatePresence>
