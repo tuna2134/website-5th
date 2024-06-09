@@ -3,14 +3,13 @@ import Header from "@/components/ui/Header";
 import { useEffect, useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import Image from "next/image";
-import { VscGithubAlt } from "react-icons/vsc";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaDiscord } from "react-icons/fa";
+import { FiGithub } from "react-icons/fi";
+import { FaXTwitter, FaDiscord } from "react-icons/fa6";
 
 const socialMedia = [
     {
         url: "https://github.com/tuna2134",
-        icon: VscGithubAlt,
+        icon: FiGithub,
     },
     {
         url: "https://twitter.com/fdc_tuna2134",
@@ -61,14 +60,17 @@ export default function Home() {
                     <div className="mt-4 flex justify-center space-x-4">
                         {socialMedia.map((social, key) => (
                             <a key={key} href={social.url}>
-                                <social.icon size={32} />
+                                <social.icon
+                                    className="text-black/50"
+                                    size={32}
+                                />
                             </a>
                         ))}
                     </div>
                     <div className="mt-8 flex justify-center">
                         <a
                             href="/#about"
-                            className="rounded-full bg-indigo-600 px-6 py-2 text-sm text-white tracking-wider"
+                            className="rounded-full bg-indigo-600 px-6 py-2 text-sm tracking-wider text-white"
                         >
                             Go down
                         </a>
