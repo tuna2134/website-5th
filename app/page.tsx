@@ -70,7 +70,7 @@ export default function Home() {
                     <div className="mt-8 flex justify-center">
                         <a
                             href="/#about"
-                            className="rounded-full bg-indigo-600 px-6 py-2 text-sm tracking-wider text-white"
+                            className="rounded-full bg-indigo-600 px-6 py-2 text-sm tracking-wider text-white hover:animate-bounce"
                         >
                             Go down
                         </a>
@@ -83,21 +83,27 @@ export default function Home() {
                 </h2>
                 <div className="mb-24 mt-16 space-y-8">
                     <div>
-                        <p className="mb-2 text-2xl font-bold">挨拶</p>
-                        <p>
+                        <p className="mb-2 border-l-4 border-indigo-300 pl-2 text-2xl font-bold">
+                            挨拶
+                        </p>
+                        <p className="tracking-wider">
                             こんにちはtuna2134です。よわよわです。アニメを見たり小説を読んだりして一日をだらだら過ごしています。
                         </p>
                     </div>
                     <div>
-                        <p className="mb-2 text-2xl font-bold">スキル</p>
-                        <p>
+                        <p className="mb-2 border-l-4 border-indigo-300 pl-2 text-2xl font-bold">
+                            スキル
+                        </p>
+                        <p className="tracking-wider">
                             JavaScript, TypeScript, Rust, Python,
                             Kubernetesなどなど。これらのツールを利用してサイトを作ったりとかインフラを管理したりして遊んでいます。
                         </p>
                     </div>
                     <div>
-                        <p className="mb-2 text-2xl font-bold">所属組織</p>
-                        <p>
+                        <p className="mb-2 border-l-4 border-indigo-300 pl-2 text-2xl font-bold">
+                            所属組織
+                        </p>
+                        <p className="tracking-wider">
                             neodylandとかKuronekoServerに所属しており、ボットの開発やインフラの管理などをしています。
                         </p>
                     </div>

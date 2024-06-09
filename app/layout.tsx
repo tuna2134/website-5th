@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
-import { Lato } from "next/font/google";
+import { Lato, Zen_Maru_Gothic } from "next/font/google";
 import "./globals.css";
 
 const lato = Lato({
+    weight: "400",
+    subsets: ["latin"],
+});
+const zenMaruGothic = Zen_Maru_Gothic({
     weight: "400",
     subsets: ["latin"],
 });
@@ -19,7 +23,9 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="ja">
-            <body className={lato.className}>{children}</body>
+            <body className={`${lato.className} ${zenMaruGothic.className}`}>
+                {children}
+            </body>
         </html>
     );
 }
