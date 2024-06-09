@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="ja">
-            <body className={`${lato.className} ${zenMaruGothic.className}`}>
+            <body className={`${lato.className} ${zenMaruGothic.className} scroll-smooth`}>
                 {children}
             </body>
         </html>
