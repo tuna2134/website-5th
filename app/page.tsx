@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { FiGithub } from "react-icons/fi";
-import { FaXTwitter, FaDiscord } from "react-icons/fa6";
+import { FaXTwitter, FaDiscord, FaAngleDown } from "react-icons/fa6";
 
 const socialMedia = [
     {
@@ -70,9 +70,10 @@ export default function Home() {
                     <div className="mt-8 flex justify-center">
                         <a
                             href="/#about"
-                            className="rounded-full bg-indigo-600 px-6 py-2 text-sm tracking-wider text-white hover:animate-bounce"
+                            className="flex items-center rounded-full bg-indigo-600 px-6 py-2 text-sm tracking-wider text-white hover:animate-bounce"
                         >
-                            Go down
+                            <p>Go down</p>
+                            <FaAngleDown className="ml-2" />
                         </a>
                     </div>
                 </div>
