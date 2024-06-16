@@ -5,6 +5,7 @@ import { AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { FiGithub } from "react-icons/fi";
 import { FaXTwitter, FaDiscord, FaAngleDown } from "react-icons/fa6";
+import Footer from "@/components/ui/Footer";
 
 const socialMedia = [
     {
@@ -110,6 +111,7 @@ export default function Home() {
                     </div>
                 </div>
             </main>
+            <Footer />
         </AnimatePresence>
     );
 }
