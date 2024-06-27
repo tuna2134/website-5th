@@ -48,7 +48,7 @@ const Header: React.FC<HeaderProps> = ({ className = "", animate = false }) => {
     const headerClass = headerVariant({ className });
     return (
         <HeaderComponent className={headerClass} animate={animate}>
-            <div className="mx-auto w-full max-w-6xl px-4">
+            <div className="mx-auto w-full max-w-4xl px-4">
                 <div className="flex items-center justify-between">
                     <h1 className="text-xl">tuna2134</h1>
                     <nav className="flex items-center space-x-6 rounded-full bg-indigo-600 px-6 py-2 text-white">
