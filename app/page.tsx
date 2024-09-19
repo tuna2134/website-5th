@@ -23,7 +23,7 @@ const socialMedia = [
 ];
 
 const avatarURL =
-    "https://cdn.discordapp.com/avatars/739702692393517076/689da5236709ab59a0371b7abcac7bda.png?size=1024";
+    "https://cdn.discordapp.com/avatars/739702692393517076/0c26d206f1fdbf2cbda04e0c648d394c.png?size=1024";
 
 export default function Home() {
     const [hidden, setHidden] = useState(true);
