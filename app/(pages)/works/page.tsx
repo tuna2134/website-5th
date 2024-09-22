@@ -17,7 +17,7 @@ const Page: NextPage = () => {
                             width={work.image.width}
                             height={work.image.height}
                             alt={work.name}
-                            className="h-full w-full rounded-lg object-contain"
+                            className="h-52 w-88 rounded-lg object-cover"
                         />
                         <p className="text-center text-lg tracking-wider">
                             {work.name}

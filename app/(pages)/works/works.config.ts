@@ -39,4 +39,12 @@ export const works = [
             width: 1686,
         },
     },
+    {
+        name: "sbv2-api",
+        image: {
+            path: "/images/works/sbv2-api.png",
+            height: 1502,
+            width: 2704,
+        },
+    }
 ];
