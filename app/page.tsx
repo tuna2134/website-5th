@@ -3,6 +3,7 @@ import Header from "@/components/ui/Header";
 import { useEffect, useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 import { FiGithub } from "react-icons/fi";
 import { FaXTwitter, FaDiscord, FaAngleDown } from "react-icons/fa6";
 import Footer from "@/components/ui/Footer";
@@ -69,13 +70,13 @@ export default function Home() {
                         ))}
                     </div>
                     <div className="mt-8 flex justify-center">
-                        <a
+                        <Link
                             href="/#about"
                             className="flex items-center rounded-full bg-indigo-600 px-6 py-2 text-sm tracking-wider text-white hover:animate-bounce"
                         >
                             <p>Go down</p>
                             <FaAngleDown className="ml-2" />
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -99,6 +100,7 @@ export default function Home() {
                         <p className="tracking-wider">
                             JavaScript, TypeScript, Rust, Python,
                             Kubernetesなどなど。これらのツールを利用してサイトを作ったりとかインフラを管理したりして遊んでいます。
+                            最近はBIRD2に触れてBGPを勉強している。
                         </p>
                     </div>
                     <div>
