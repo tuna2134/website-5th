@@ -100,6 +100,7 @@ export default function Home() {
                         <p className="tracking-wider">
                             JavaScript, TypeScript, Rust, Python,
                             Kubernetesなどなど。これらのツールを利用してサイトを作ったりとかインフラを管理したりして遊んでいます。
+                            最近はBIRD2に触れてBGPを勉強している。
                         </p>
                     </div>
                     <div>
