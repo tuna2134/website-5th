@@ -72,7 +72,7 @@ export default function Home() {
                     <div className="mt-8 flex justify-center">
                         <Link
                             href="/#about"
-                            className="flex items-center rounded-full bg-indigo-600 px-6 py-2 text-sm tracking-wider text-white hover:animate-bounce"
+                            className="flex items-center rounded-full bg-indigo-600 px-6 py-2 text-sm tracking-wider text-white animate-bounce"
                         >
                             <p>Go down</p>
                             <FaAngleDown className="ml-2" />
