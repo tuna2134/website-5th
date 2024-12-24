@@ -108,7 +108,7 @@ export default function Home() {
                             所属組織
                         </p>
                         <p className="tracking-wider">
-                            neodylandとかKuronekoServerに所属しており、ボットの開発やインフラの管理などをしています。
+                            neodylandに所属しており、ボットの開発やインフラの管理などをしています。
                         </p>
                     </div>
                 </div>
