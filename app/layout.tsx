@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Lato, Zen_Maru_Gothic } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const lato = Lato({
@@ -28,6 +29,11 @@ export default function RootLayout({
             >
                 {children}
             </body>
+            <Script
+                async
+                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8715826596324259"
+                crossOrigin="anonymous"
+            />
         </html>
     );
 }
